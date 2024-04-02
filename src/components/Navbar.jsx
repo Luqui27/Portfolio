@@ -1,33 +1,24 @@
 // Navbar.js
 import React from 'react';
+import { Navbar, Container, Nav } from 'react-bootstrap';
 
-function Navbar() {
+function AppNavbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark rounded sticky-top">
-      <div className="container">
-        <a className="navbar-brand" href="#">LuquiDev</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul className="navbar-nav">
-          <li className="nav-item">
-              <a className="nav-link" href="#presentation">Presentation</a>
-            </li>
-          <li className="nav-item">
-              <a className="nav-link" href="#projects">Projects</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <Navbar bg="dark" variant="dark" expand="sm" sticky="top" className='rounded-bottom'>
+      <Container>
+        <Navbar.Brand href="#">LuquiDev</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbar-nav" />
+        <Navbar.Collapse id="navbar-nav" className='justify-content-end'>
+          <Nav className="ml-auto">
+            <Nav.Link href="#presentation">Presentation</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default AppNavbar;

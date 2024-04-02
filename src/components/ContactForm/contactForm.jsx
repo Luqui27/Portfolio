@@ -6,7 +6,7 @@ function BasicExample2() {
   return (
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Ingresa tu mail: </Form.Label>
+        <Form.Label>Podes contactarme via mail por el siguiente formulario: </Form.Label>
         <Form.Control type="email" placeholder="JonDoe@gmail.com" />
         
       </Form.Group>
