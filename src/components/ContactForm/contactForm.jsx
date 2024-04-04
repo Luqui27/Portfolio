@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
-function BasicExample2() {
+function ContactForm() {
   return (
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -22,4 +22,4 @@ function BasicExample2() {
   );
 }
 
-export default BasicExample2;
+export default ContactForm;

@@ -7,9 +7,10 @@ function Presentation() {
   return (
     <section id="presentation" className="row">
       <div className="col-lg-6 mx-auto">
-        <h2 className="section-title">Web Developer</h2>
+        <h1 className="section-title">Lucas D'mayo</h1>
+        <h3>Web Developer Full Stack</h3>
         <Row>
-            <Col>
+            <Col className='FotoPerfil'>
             <ShapeExample/>
             </Col>
             <Col>
