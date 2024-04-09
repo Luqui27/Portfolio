@@ -10,7 +10,7 @@ import { SiNetlify } from "react-icons/si";
 
 function RollingRestaurant() {
   return (
-    <Card  className='m-4' style={{ width: '20rem' }}>
+    <Card  className='m-4' style={{ width: '90%'}}>
       <Card.Img variant="top" src="https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/65a801bcfd9c85049c0d0245/screenshot_2024-01-17-16-35-15-0000.webp&fit=cover&h=500&w=800" />
       <Card.Body>
         <Card.Title>Rolling Restaurant</Card.Title>

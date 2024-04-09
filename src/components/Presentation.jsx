@@ -7,8 +7,8 @@ function Presentation() {
   return (
     <section id="presentation" className="row">
       <div className="col-lg-6 mx-auto">
-        <h1 className="section-title">Lucas D'mayo</h1>
-        <h3>Web Developer Full Stack</h3>
+        <h1 className="section-title-name">Lucas D'mayo</h1>
+        <h4 className='Subtitle'>Web Developer Full Stack</h4>
         <Row>
             <Col className='FotoPerfil'>
             <ShapeExample/>

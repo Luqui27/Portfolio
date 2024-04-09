@@ -7,7 +7,7 @@ function ShapeExample() {
   return (
     <Container>
       <Row>
-        <Col md={4}>
+        <Col md={12}>
           <Image src="https://img2.joyreactor.cc/pics/thumbnail/post-4749050.jpg" roundedCircle />
         </Col>
       </Row>
